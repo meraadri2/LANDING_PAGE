@@ -330,7 +330,7 @@ body {
 }
 .tick:hover { color: var(--accent); }
 
-/* ===== GAMES SECTION ===== */
+/*  GAMES SECTION  */
 .games-section {
   display: flex;
   padding: 80px 60px;
@@ -392,7 +392,7 @@ body {
   gap: 28px;
 }
 
-/* ===== GAME CARDS ===== */
+/*  GAME CARDS  */
 .game-card {
   background: var(--bg2);
   border: 1px solid var(--border);
@@ -464,7 +464,7 @@ body {
   color: #fff;
 }
 
-/* ===== TOURNAMENTS ===== */
+/*  TOURNAMENTS  */
 .tournaments-section {
   padding: 80px 60px;
   background: var(--bg2);
@@ -555,7 +555,7 @@ body {
   padding: 40px;
 }
 
-/* ===== REGISTER ===== */
+/*  REGISTER  */
 .register-section { padding: 80px 60px; }
 
 .register-form {
@@ -625,7 +625,7 @@ body {
   display: block;
 }
 
-/* ===== SCROLL REVEAL ===== */
+/*  SCROLL REVEAL  */
 .reveal {
   opacity: 0;
   transform: translateY(30px);
@@ -636,7 +636,7 @@ body {
   transform: translateY(0);
 }
 
-/* ===== FOOTER ===== */
+/*  FOOTER  */
 .footer {
   background: var(--bg2);
   border-top: 1px solid var(--border);
@@ -660,7 +660,7 @@ body {
   opacity: .4;
 }
 
-/* ===== RESPONSIVE: <=1024px ===== */
+/*  RESPONSIVE: <=1024px  */
 @media (max-width: 1024px) {
   .navbar,
   .hero,
@@ -676,7 +676,7 @@ body {
   .footer { padding-top: 40px; padding-bottom: 40px; }
 }
 
-/* ===== RESPONSIVE: <=768px ===== */
+/*  RESPONSIVE: <=768px  */
 @media (max-width: 768px) {
   .nav-links { display: none; }
   .nav-links.open {
