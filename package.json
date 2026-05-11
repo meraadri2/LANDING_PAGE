@@ -1,0 +1,12 @@
+{
+  "name": "nexusgg-landing",
+  "version": "1.0.0",
+  "description": "Landing page de torneos esports NexusGG",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
