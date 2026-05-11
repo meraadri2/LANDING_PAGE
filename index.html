@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NexusGG - Torneos Esports</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+
+  <nav class="navbar" id="navbar">
+    <a class="nav-logo" href="#inicio">NEXUS<span>GG</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#inicio">Inicio</a></li>
+      <li class="has-mega">
+        <a href="#torneos">Torneos ▾</a>
+        <div class="mega-menu">
+          <div class="mega-col">
+            <h4>Shooters</h4>
+            <a href="#inscripcion">Valorant</a>
+            <a href="#inscripcion">CS2</a>
+            <a href="#inscripcion">Apex Legends</a>
+          </div>
+          <div class="mega-col">
+            <h4>MOBA</h4>
+            <a href="#inscripcion">League of Legends</a>
+            <a href="#inscripcion">Dota 2</a>
+          </div>
+          <div class="mega-col">
+            <h4>Otros</h4>
+            <a href="#inscripcion">Fortnite</a>
+            <a href="#inscripcion">EA FC 25</a>
+            <a href="#inscripcion">Rocket League</a>
+          </div>
+        </div>
+      </li>
+      <li><a href="#juegos">Juegos</a></li>
+      <li><a href="#inscripcion">Inscribirse</a></li>
+    </ul>
+    <a href="#inscripcion" class="nav-cta">Unirse</a>
+    <button class="nav-toggle" id="navToggle">☰</button>
+  </nav>
+
+  <section class="hero" id="inicio">
+    <div class="hero-content">
+      <p class="hero-tag">🏆 Torneos Esports Oficiales</p>
+      <h1 class="hero-title">COMPITE.<br>DOMINA.<br>GANA.</h1>
+      <p class="hero-desc">La plataforma de torneos esports más grande de España. Valorant, LoL, CS2, Fortnite y más.</p>
+      <div class="hero-btns">
+        <a href="#torneos" class="btn-primary">Ver Torneos</a>
+        <a href="#inscripcion" class="btn-ghost">Inscribirse</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-badge">
+        <div class="badge-inner">
+          <span class="badge-num">8</span>
+          <span class="badge-txt">Juegos</span>
+        </div>
+      </div>
+      <div class="hero-tags-float">
+        <span>VALORANT</span>
+        <span>CS2</span>
+        <span>LoL</span>
+        <span>DOTA 2</span>
+        <span>FORTNITE</span>
+        <span>APEX</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="ticker-bar">
+    <div class="ticker-track" id="tickerTrack">
+      <span class="tick">⚡ VALORANT</span>
+      <span class="tick">🎯 CS2</span>
+      <span class="tick">👑 LEAGUE OF LEGENDS</span>
+      <span class="tick">💥 FORTNITE</span>
+      <span class="tick">🚀 APEX LEGENDS</span>
+      <span class="tick">⚔️ DOTA 2</span>
+      <span class="tick">⚽ EA FC 25</span>
+      <span class="tick">🚗 ROCKET LEAGUE</span>
+      <span class="tick">⚡ VALORANT</span>
+      <span class="tick">🎯 CS2</span>
+      <span class="tick">👑 LEAGUE OF LEGENDS</span>
+      <span class="tick">💥 FORTNITE</span>
+      <span class="tick">🚀 APEX LEGENDS</span>
+      <span class="tick">⚔️ DOTA 2</span>
+      <span class="tick">⚽ EA FC 25</span>
+      <span class="tick">🚗 ROCKET LEAGUE</span>
+    </div>
+  </div>
+
+  <section class="games-section" id="juegos">
+    <div class="games-left">
+      <h2 class="side-title">JUEGOS</h2>
+      <ul class="games-nav" id="gamesNav">
+        <li class="gnav-item active" data-game="valorant">Valorant</li>
+        <li class="gnav-item" data-game="lol">League of Legends</li>
+        <li class="gnav-item" data-game="cs2">CS2</li>
+        <li class="gnav-item" data-game="fortnite">Fortnite</li>
+        <li class="gnav-item" data-game="apex">Apex Legends</li>
+        <li class="gnav-item" data-game="dota2">Dota 2</li>
+        <li class="gnav-item" data-game="eafc">EA FC 25</li>
+        <li class="gnav-item" data-game="rl">Rocket League</li>
+      </ul>
+      <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+    </div>
+    <div class="games-right" id="gamesRight">
+
+      <div class="game-card reveal" data-game="valorant">
+        <div class="card-header" style="background: linear-gradient(135deg, #ff4655 0%, #1a0508 100%);">
+          <h3>VALORANT</h3><span>Tactical Shooter</span>
+        </div>
+        <div class="card-body">
+          <p>El shooter táctico de Riot Games. 5v5 con habilidades únicas y jugabilidad competitiva de alto nivel.</p>
+          <div class="card-stats">
+            <div class="cs"><b>5.000€</b><small>Premio</small></div>
+            <div class="cs"><b>32</b><small>Plazas</small></div>
+            <div class="cs"><b>15 Jun</b><small>Fecha</small></div>
+          </div>
+          <a href="#inscripcion" class="btn-card">Inscribirse →</a>
+        </div>
+      </div>
+
+      <div class="game-card reveal" data-game="lol">
+        <div class="card-header" style="background: linear-gradient(135deg, #C89B3C 0%, #0a0800 100%);">
+          <h3>LEAGUE OF LEGENDS</h3><span>MOBA</span>
+        </div>
+        <div class="card-body">
+          <p>El MOBA más popular del mundo. Estrategia, trabajo en equipo y dominio del meta son clave para ganar.</p>
+          <div class="card-stats">
+            <div class="cs"><b>3.000€</b><small>Premio</small></div>
+            <div class="cs"><b>16</b><small>Plazas</small></div>
+            <div class="cs"><b>20 Jun</b><small>Fecha</small></div>
+          </div>
+          <a href="#inscripcion" class="btn-card">Inscribirse →</a>
+        </div>
+      </div>
+
+      <div class="game-card reveal" data-game="cs2">
+        <div class="card-header" style="background: linear-gradient(135deg, #f4750e 0%, #1a0800 100%);">
+          <h3>CS2</h3><span>Tactical Shooter</span>
+        </div>
+        <div class="card-body">
+          <p>Counter-Strike 2, el shooter táctico más icónico. Precisión, economía y estrategia definen cada ronda.</p>
+          <div class="card-stats">
+            <div class="cs"><b>4.000€</b><small>Premio</small></div>
+            <div class="cs"><b>20</b><small>Plazas</small></div>
+            <div class="cs"><b>1 Jul</b><small>Fecha</small></div>
+          </div>
+          <a href="#inscripcion" class="btn-card">Inscribirse →</a>
+        </div>
+      </div>
+
+      <div class="game-card reveal" data-game="fortnite">
+        <div class="card-header" style="background: linear-gradient(135deg, #9B59B6 0%, #0d0018 100%);">
+          <h3>FORTNITE</h3><span>Battle Royale</span>
+        </div>
+        <div class="card-body">
+          <p>Battle Royale de Epic Games. Construcción, disparos y supervivencia en un entorno constantemente cambiante.</p>
+          <div class="card-stats">
+            <div class="cs"><b>2.000€</b><small>Premio</small></div>
+            <div class="cs"><b>50</b><small>Plazas</small></div>
+            <div class="cs"><b>10 Jul</b><small>Fecha</small></div>
+          </div>
+          <a href="#inscripcion" class="btn-card">Inscribirse →</a>
+        </div>
+      </div>
+
+      <div class="game-card reveal" data-game="apex">
+        <div class="card-header" style="background: linear-gradient(135deg, #CD4121 0%, #1a0800 100%);">
+          <h3>APEX LEGENDS</h3><span>Battle Royale</span>
+        </div>
+        <div class="card-body">
+          <p>Battle Royale de Respawn Entertainment. Leyendas con habilidades únicas en un mundo de ciencia ficción.</p>
+          <div class="card-stats">
+            <div class="cs"><b>2.500€</b><small>Premio</small></div>
+            <div class="cs"><b>30</b><small>Plazas</small></div>
+            <div class="cs"><b>15 Jul</b><small>Fecha</small></div>
+          </div>
+          <a href="#inscripcion" class="btn-card">Inscribirse →</a>
+        </div>
+      </div>
+
+      <div class="game-card reveal" data-game="dota2">
+        <div class="card-header" style="background: linear-gradient(135deg, #B44A47 0%, #1a0000 100%);">
+          <h3>DOTA 2</h3><span>MOBA</span>
+        </div>
+        <div class="card-body">
+          <p>El MOBA más complejo y con el mayor prize pool del mundo. Estrategia profunda y mecánicas avanzadas.</p>
+          <div class="card-stats">
+            <div class="cs"><b>6.000€</b><small>Premio</small></div>
+            <div class="cs"><b>16</b><small>Plazas</small></div>
+            <div class="cs"><b>1 Ago</b><small>Fecha</small></div>
+          </div>
+          <a href="#inscripcion" class="btn-card">Inscribirse →</a>
+        </div>
+      </div>
+
+      <div class="game-card reveal" data-game="eafc">
+        <div class="card-header" style="background: linear-gradient(135deg, #1DB954 0%, #001a08 100%);">
+          <h3>EA FC 25</h3><span>Sports</span>
+        </div>
+        <div class="card-body">
+          <p>El simulador de fútbol más popular. Compite contra los mejores jugadores en torneos virtuales de fútbol.</p>
+          <div class="card-stats">
+            <div class="cs"><b>1.500€</b><small>Premio</small></div>
+            <div class="cs"><b>64</b><small>Plazas</small></div>
+            <div class="cs"><b>10 Ago</b><small>Fecha</small></div>
+          </div>
+          <a href="#inscripcion" class="btn-card">Inscribirse →</a>
+        </div>
+      </div>
+
+      <div class="game-card reveal" data-game="rl">
+        <div class="card-header" style="background: linear-gradient(135deg, #00A8E8 0%, #000d1a 100%);">
+          <h3>ROCKET LEAGUE</h3><span>Sports</span>
+        </div>
+        <div class="card-body">
+          <p>Fútbol con coches cohete. Habilidad, velocidad y trabajo en equipo en uno de los deportes electrónicos más espectaculares.</p>
+          <div class="card-stats">
+            <div class="cs"><b>2.000€</b><small>Premio</small></div>
+            <div class="cs"><b>24</b><small>Plazas</small></div>
+            <div class="cs"><b>20 Ago</b><small>Fecha</small></div>
+          </div>
+          <a href="#inscripcion" class="btn-card">Inscribirse →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="tournaments-section" id="torneos">
+    <div class="container">
+      <h2 class="section-title reveal">TORNEOS ACTIVOS</h2>
+      <p class="section-sub reveal">Selecciona tu torneo y demuestra tu nivel</p>
+      <div class="tournaments-grid" id="tournamentsGrid">
+        <p class="loading-text">Cargando torneos...</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="register-section" id="inscripcion">
+    <div class="container">
+      <h2 class="section-title reveal">INSCRÍBETE</h2>
+      <p class="section-sub reveal">Rellena el formulario y únete a la competición</p>
+      <form id="registerForm" class="register-form reveal">
+        <div class="form-group">
+          <label for="playerName">Nombre de Jugador *</label>
+          <input type="text" id="playerName" placeholder="Tu nickname" required>
+        </div>
+        <div class="form-group">
+          <label for="playerEmail">Email *</label>
+          <input type="email" id="playerEmail" placeholder="tu@email.com" required>
+        </div>
+        <div class="form-group">
+          <label for="tournamentSelect">Torneo *</label>
+          <select id="tournamentSelect" required>
+            <option value="">Selecciona un torneo...</option>
+          </select>
+        </div>
+        <button type="submit" class="btn-primary btn-submit">INSCRIBIRSE AHORA</button>
+        <div id="formMsg" class="form-msg"></div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-logo">NEXUS<span>GG</span></div>
+      <p class="footer-desc">La plataforma de torneos esports más grande de España.</p>
+      <p class="footer-copy">© 2026 NexusGG. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
